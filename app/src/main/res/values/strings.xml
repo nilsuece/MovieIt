@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Movie It!</string>
+    <string name="name">Enter your name</string>
+    <string name="start">Start Quiz</string>
+    <string name="question">Question </string>
+
+    <string name="question1">Which movie did Leonardo DiCaprio won an oscar for?</string>
+    <string name="q1a">Titanic</string>
+    <string name="q1b">Inception</string>
+    <string name="q1c">The Revenant</string>
+    <string name="q1d">The Wolf of Wall Street</string>
+
+    <string name="question2">What year was "To Kill a Mockingbird" Movie released?</string>
+    <string name="answer">Type Answer Here</string>
+
+    <string name="question3">Which movie does this scene belong to?</string>
+    <string name="q3a">Fight Club</string>
+    <string name="q3b">Memento</string>
+    <string name="q3c">Matrix</string>
+    <string name="q3d">Interstellar</string>
+
+    <string name="question4">Which two of the following actors have played Batman?</string>
+    <string name="q4a">Christian Bale</string>
+    <string name="q4b">Val Kilmer</string>
+    <string name="q4c">Robert Downey Jr.</string>
+    <string name="q4d">Christopher Reeve</string>
+
+    <string name="question5">Which of the following movies does not have a penguin?</string>
+    <string name="q5a">The Lion King</string>
+    <string name="q5b" tools:ignore="StringEscaping">Surf's Up</string>
+    <string name="q5c">Madagascar</string>
+    <string name="q5d">Happy Feet</string>
+
+    <string name="question6">Which of the following movies are animations?</string>
+    <string name="q6a">Despicable Me!</string>
+    <string name="q6b">Batman Begins</string>
+    <string name="q6c">Wall - E</string>
+    <string name="q6d">Gravity</string>
+
+    <string name="showResult">Show My Result</string>
+
+    <string name="restart">Restart Quiz</string>
+    <string name="share">Share Score</string>
+
+    <string name="score_text"><xliff:g id="total_score">3</xliff:g>/6</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wide_margin">40dp</dimen>
+    <dimen name="top_margin">24dp</dimen>
+    <dimen name="title_size">14sp</dimen>
+    <dimen name="question_size">18sp</dimen>
+    <dimen name="narrow_margin">7dp</dimen>
+    <dimen name="answer_size">16sp</dimen>
+    <dimen name="middle_margin">25dp</dimen>
+    <dimen name="button_margin">15dp</dimen>
+    <dimen name="score_text_size">40sp</dimen>
+
+</resources>
