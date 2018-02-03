@@ -28,7 +28,7 @@
 
     <string name="question5">Which of the following movies does not have a penguin?</string>
     <string name="q5a">The Lion King</string>
-    <string name="q5b" tools:ignore="StringEscaping">Surf's Up</string>
+    <string name="q5b">Surf\'s Up</string>
     <string name="q5c">Madagascar</string>
     <string name="q5d">Happy Feet</string>
 
@@ -43,6 +43,12 @@
     <string name="restart">Restart Quiz</string>
     <string name="share">Share Score</string>
 
-    <string name="score_text"><xliff:g id="total_score">3</xliff:g>/6</string>
+    <string name="score_text"><xliff:g id="total_score" example="3">%d</xliff:g>/6</string>
+
+    <string name="check_my_result">Check my score on Movie It!</string>
+    <string name="score_owner"><xliff:g id="playerName" example="Nils">%s</xliff:g> has <xliff:g id="total_score" example="3">%d</xliff:g> correct answers out of 6.</string>
+    <string name="confident"><xliff:g id="playerName" example="Nils">%s</xliff:g> knows how to Movie It!</string>
+
+    <string name="your_score">YOUR SCORE</string>
 
 </resources>

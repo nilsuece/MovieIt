@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context="com.example.android.movieit.QuizActivity">
 
     <LinearLayout
@@ -438,7 +439,6 @@
             android:layout_height="wrap_content"
             android:text="@string/showResult"
             android:layout_margin="@dimen/wide_margin"
-            android:textColor="#F0F4C3"
             android:onClick="showResult"/>
     </LinearLayout>
 </ScrollView>

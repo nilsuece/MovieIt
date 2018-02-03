@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context="com.example.android.movieit.MainActivity">
 
     <RelativeLayout
@@ -19,37 +19,61 @@
             android:src="@drawable/logo" />
 
         <TextView
+            android:id="@+id/yourScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_score"
+            android:textSize="@dimen/yourscore_size"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/movieit_logo"/>
+
+        <TextView
             android:id="@+id/score_field"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/movieit_logo"
+            android:layout_below="@id/yourScore"
             android:layout_centerHorizontal="true"
             android:layout_margin="@dimen/narrow_margin"
             android:text="@string/score_text"
             android:textSize="@dimen/score_text_size"/>
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/popcorn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/score_field"
+            android:src="@drawable/popcorn"/>
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/score_field"
+            android:layout_below="@id/popcorn"
             android:orientation="horizontal"
             android:layout_centerHorizontal="true"
-            android:layout_margin="@dimen/wide_margin">
+            android:layout_marginRight="@dimen/wide_margin"
+            android:layout_marginLeft="@dimen/wide_margin"
+            >
+
 
             <Button
                 android:id="@+id/restart_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/button_height"
                 android:layout_margin="@dimen/button_margin"
-                android:text="@string/restart" />
+                android:text="@string/restart"
+                android:layout_alignParentLeft="true"
+                android:onClick="restart"/>
 
             <Button
                 android:id="@+id/start_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/button_height"
                 android:layout_margin="@dimen/button_margin"
-                android:text="@string/share" />
+                android:text="@string/share"
+                android:layout_alignParentRight="true"
+                android:onClick="shareResult"/>
 
-        </LinearLayout>
+        </RelativeLayout>
     </RelativeLayout>
 </ScrollView>
